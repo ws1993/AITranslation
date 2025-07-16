@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "src/entry.tsx",
+      "use": "@vercel/node"
+    }
+  ],
+  "outputDirectory": "public/translate"
+}
