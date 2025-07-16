@@ -1,9 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "src/entry.tsx",
-      "use": "@vercel/node"
-    }
-  ],
-  "outputDirectory": "public/translate"
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

@@ -19,7 +19,7 @@ export default defineConfig({
     },
   },
   output: {
-    distPath: { root: "../../public/translate" },
+    distPath: { root: "dist" },
     assetPrefix: "./",
   },
 });
