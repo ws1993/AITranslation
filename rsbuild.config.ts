@@ -8,6 +8,9 @@ export default defineConfig({
       index: './src/entry.tsx',
     },
   },
+  html: {
+    template: './src/index.html', // 指定自定义模板
+  },
   tools: {
     postcss: {
       postcssOptions: {
@@ -23,4 +26,3 @@ export default defineConfig({
     assetPrefix: "./",
   },
 });
-      
